@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Christmas Lights!</title>
+</head>
+
+<body>
+  <div class="christmas-lights-intro">
+    <h1>Merry Christmas!</h1>
+    <p>Coded by <a href="https://dgdev1024.glitch.me" target="_blank">Dennis
+        Griffin</a></p>
+  </div>
+
+  <div class="christmas-lights">
+    <div class="christmas-light"></div>
+    <div class="christmas-light"></div>
+    <div class="christmas-light"></div>
+    <div class="christmas-light"></div>
+    <div class="christmas-light"></div>
+    <div class="christmas-light"></div>
+    <div class="christmas-light"></div>
+  </div>
+
+  <div class="christmas-lights-control">
+    <div class="christmas-lights-control-element">
+      <label for="christmas-lights-interval">Lights Interval (ms):
+      </label>
+      <input id="christmas-lights-interval" type="number" placeholder="Interval"
+        value="500" min="100" max="5000" />
+    </div>
+    <div class="christmas-lights-control-element">
+      <button id="christmas-lights-toggle" type="button">
+        ...
+      </button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
